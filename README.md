@@ -291,21 +291,6 @@ gtkwave dump.vcd
 3. **Refractory Period**: Prevents neuron from firing immediately after a spike
 4. **Leak Mechanism**: Prevents unbounded membrane potential growth
 
-## Applications
-
-This SNN implementation can be used for:
-- Image processing and pattern recognition
-- Neuromorphic computing research
-- Low-power edge AI applications
-- Real-time signal processing
-- Hardware acceleration of neural networks
-
-## Notes
-
-- The floating point implementation requires all supporting modules (Addition_Subtraction, comparator, priority_encoder) to be included during compilation
-- Both implementations use the same Poisson spike generator logic
-- The system processes one pixel value at a time
-- Membrane potential and spike outputs are available for monitoring
 
 ## References
 
@@ -313,8 +298,4 @@ For detailed project documentation, see: `EE605_Project_Report_Group_3.pdf`
 
 ---
 
-**Project**: EE605 Group 3  
-**Date**: April 2024  
-**Language**: Verilog  
-**Target**: FPGA/ASIC Implementation
 
